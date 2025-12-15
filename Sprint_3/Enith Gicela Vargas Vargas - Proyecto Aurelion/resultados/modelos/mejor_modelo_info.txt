@@ -1,0 +1,2 @@
+Mejor modelo: Linear Regression
+Fecha: 2025-11-27 21:33:28.732266

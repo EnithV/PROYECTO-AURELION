@@ -1,0 +1,109 @@
+ANÁLISIS ESTADÍSTICO DETALLADO: MEDIOS DE PAGO
+================================================================================
+
+1. DISTRIBUCIÓN DE VENTAS POR MÉTODO DE PAGO
+--------------------------------------------------------------------------------
+Total de ventas analizadas: 120
+
+EFECTIVO:
+  - Número de ventas: 37.0
+  - Porcentaje: 30.83%
+
+QR:
+  - Número de ventas: 30.0
+  - Porcentaje: 25.00%
+
+TRANSFERENCIA:
+  - Número de ventas: 27.0
+  - Porcentaje: 22.50%
+
+TARJETA:
+  - Número de ventas: 26.0
+  - Porcentaje: 21.67%
+
+
+2. ANÁLISIS DE MONTOS TOTALES POR MÉTODO DE PAGO
+--------------------------------------------------------------------------------
+Monto total general: $2,651,417.00
+
+                total  promedio  mediana  desv_std  minimo  maximo  cantidad  porcentaje_total
+medio_pago                                                                                    
+efectivo       934819   8421.79   7752.0   5110.69     503   22150       111         35.257336
+qr             714280   7849.23   6888.0   5592.63     570   24865        91         26.939557
+transferencia  542219   7530.82   5782.5   5315.96     544   23760        72         20.450159
+tarjeta        460099   6668.10   5169.0   4929.93     272   21090        69         17.352947
+
+3. ESTADÍSTICAS DESCRIPTIVAS DETALLADAS
+--------------------------------------------------------------------------------
+
+TARJETA:
+  - Cantidad de transacciones: 69
+  - Media: $6668.10
+  - Mediana: $5169.00
+  - Desviación estándar: $4929.93
+  - Mínimo: $272.00
+  - Máximo: $21090.00
+  - Q1 (25%): $2538.00
+  - Q3 (75%): $9380.00
+  - Asimetría (Skewness): 0.934
+  - Curtosis: 0.325
+
+QR:
+  - Cantidad de transacciones: 91
+  - Media: $7849.23
+  - Mediana: $6888.00
+  - Desviación estándar: $5592.63
+  - Mínimo: $570.00
+  - Máximo: $24865.00
+  - Q1 (25%): $3607.50
+  - Q3 (75%): $10200.50
+  - Asimetría (Skewness): 0.963
+  - Curtosis: 0.242
+
+TRANSFERENCIA:
+  - Cantidad de transacciones: 72
+  - Media: $7530.82
+  - Mediana: $5782.50
+  - Desviación estándar: $5315.96
+  - Mínimo: $544.00
+  - Máximo: $23760.00
+  - Q1 (25%): $3695.00
+  - Q3 (75%): $9766.00
+  - Asimetría (Skewness): 1.070
+  - Curtosis: 0.565
+
+EFECTIVO:
+  - Cantidad de transacciones: 111
+  - Media: $8421.79
+  - Mediana: $7752.00
+  - Desviación estándar: $5110.69
+  - Mínimo: $503.00
+  - Máximo: $22150.00
+  - Q1 (25%): $4122.00
+  - Q3 (75%): $12008.00
+  - Asimetría (Skewness): 0.615
+  - Curtosis: -0.387
+
+
+4. ANÁLISIS TEMPORAL DE PREFERENCIAS DE PAGO
+--------------------------------------------------------------------------------
+
+Distribución por mes:
+medio_pago  efectivo  qr  tarjeta  transferencia
+mes_año                                         
+2024-01            8   4        7              5
+2024-02            8   4        1              7
+2024-03            7   5        5              4
+2024-04            2   5        3              2
+2024-05            6   5        5              6
+2024-06            6   7        5              3
+
+Distribución por año:
+medio_pago  efectivo  qr  tarjeta  transferencia
+año                                             
+2024              37  30       26             27
+
+
+================================================================================
+Reporte generado automáticamente por el sistema de análisis
+================================================================================

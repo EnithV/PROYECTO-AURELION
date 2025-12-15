@@ -1,0 +1,151 @@
+DIAGRAMA DE FLUJO - PROYECTO AURELION
+=====================================
+Grupo 11 - Camada 1
+Enith Gicela Vargas Vargas
+
+INICIO
+  |
+  v
+Cargar Base de Datos
+  ├── clientes.xlsx
+  ├── productos.xlsx
+  ├── ventas.xlsx
+  └── detalle_ventas.xlsx
+  |
+  v
+Validar Datos
+  ├── Verificar archivos existentes
+  ├── Verificar estructura de datos
+  └── Manejar errores de carga
+  |
+  v
+Mostrar Menú Principal
+  ├── 1. Análisis de Ventas
+  ├── 2. Análisis de Productos
+  ├── 3. Análisis de Pagos
+  ├── 4. Análisis de Clientes
+  ├── 5. Segmentación RFM de Clientes
+  ├── 6. Reporte Completo
+  ├── 7. Consultar Documentación
+  └── 8. Salir
+  |
+  v
+¿Opción válida?
+  ├── NO → Mostrar error y volver al menú
+  └── SÍ → Continuar
+  |
+  v
+Procesar Opción Seleccionada
+  |
+  ├── OPCIÓN 1: Análisis de Ventas
+  │   ├── Cargar datos de ventas
+  │   ├── Calcular métricas básicas
+  │   │   ├── Total de ventas
+  │   │   ├── Promedio por venta
+  │   │   ├── Mejor/peor venta
+  │   │   └── Tendencia temporal
+  │   ├── Análisis por período
+  │   │   ├── Ventas por mes
+  │   │   ├── Ventas por día de la semana
+  │   │   └── Comparación de períodos
+  │   ├── Top productos vendidos
+  │   ├── Top clientes por compras
+  │   └── Mostrar resultados
+  │
+  ├── OPCIÓN 2: Análisis de Productos
+  │   ├── Cargar datos de productos y ventas
+  │   ├── Calcular métricas por producto
+  │   │   ├── Cantidad vendida
+  │   │   ├── Ingresos generados
+  │   │   ├── Margen de ganancia
+  │   │   └── Rotación de inventario
+  │   ├── Análisis de categorías
+  │   │   ├── Ventas por categoría
+  │   │   ├── Productos más/menos vendidos
+  │   │   └── Análisis de precios
+  │   ├── Identificar oportunidades
+  │   │   ├── Productos con alta demanda
+  │   │   ├── Productos con baja rotación
+  │   │   └── Recomendaciones de precios
+  │   └── Mostrar resultados
+  │
+  ├── OPCIÓN 3: Análisis de Pagos
+  │   ├── Cargar datos de ventas
+  │   ├── Analizar métodos de pago
+  │   │   ├── Distribución por método
+  │   │   ├── Montos por método
+  │   │   └── Tendencias temporales
+  │   ├── Análisis de efectivo vs tarjeta
+  │   │   ├── Comparación de montos
+  │   │   ├── Análisis de tickets
+  │   │   └── Recomendaciones
+  │   └── Mostrar resultados
+  │
+  ├── OPCIÓN 4: Análisis de Clientes
+  │   ├── Cargar datos de clientes y ventas
+  │   ├── Calcular métricas por cliente
+  │   │   ├── Total gastado
+  │   │   ├── Frecuencia de compras
+  │   │   ├── Ticket promedio
+  │   │   └── Última compra
+  │   ├── Top clientes más frecuentes
+  │   ├── Estadísticas de comportamiento
+  │   └── Mostrar resultados
+  │
+  ├── OPCIÓN 5: Segmentación RFM de Clientes
+  │   ├── Cargar datos de clientes y ventas
+  │   ├── Calcular métricas RFM
+  │   │   ├── Recency (días desde última compra)
+  │   │   ├── Frequency (frecuencia de compras)
+  │   │   └── Monetary (valor total gastado)
+  │   ├── Aplicar puntuaciones (1-5)
+  │   ├── Crear categorías de clientes
+  │   │   ├── Campeones (R:5, F:5, M:5)
+  │   │   ├── Leales (R:4-5, F:3-5, M:3-5)
+  │   │   ├── Potenciales (R:3-4, F:1-3, M:3-5)
+  │   │   ├── Nuevos (R:4-5, F:1-2, M:1-3)
+  │   │   ├── En riesgo (R:1-2, F:3-5, M:3-5)
+  │   │   └── Perdidos (R:1-2, F:1-2, M:1-2)
+  │   └── Mostrar resultados y recomendaciones
+  │
+  ├── OPCIÓN 6: Reporte Completo
+  │   ├── Ejecutar todos los análisis
+  │   ├── Generar resumen ejecutivo
+  │   ├── Crear recomendaciones generales
+  │   └── Mostrar dashboard completo
+  │
+  ├── OPCIÓN 7: Consultar Documentación
+  │   ├── Mostrar sub-menú de documentación
+  │   │   ├── 1. Información del Proyecto
+  │   │   ├── 2. Estructura de la Base de Datos
+  │   │   ├── 3. Funcionalidades del Sistema
+  │   │   ├── 4. Guía de Uso
+  │   │   ├── 5. Tecnologías Utilizadas
+  │   │   └── 6. Volver al Menú Principal
+  │   └── Mostrar información seleccionada
+  │
+  └── OPCIÓN 8: Salir
+      └── Mostrar mensaje de despedida
+  |
+  v
+¿Continuar con otra opción?
+  ├── SÍ → Volver al menú principal
+  └── NO → FIN
+  |
+  v
+FIN
+
+CARACTERÍSTICAS TÉCNICAS:
+========================
+- Programación Orientada a Objetos (POO)
+- Manejo de errores robusto con try-catch
+- Validación de datos de entrada
+- Cálculos estadísticos con pandas y numpy
+- Interfaz interactiva con menús navegables
+- Documentación completa del código
+- Clases y métodos organizados
+- Manejo de interrupciones (Ctrl+C)
+- Pausas para lectura de resultados
+- Sub-menús para documentación
+- Análisis RFM avanzado de clientes
+- Métricas de negocio automatizadas

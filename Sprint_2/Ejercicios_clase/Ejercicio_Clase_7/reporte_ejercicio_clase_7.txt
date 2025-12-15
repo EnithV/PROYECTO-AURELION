@@ -1,0 +1,32 @@
+REPORTE EJERCICIO CLASE 7
+Proyecto desarrollado como parte del curso AI Fundamentals - Guayerd - IBM Skills Build
+============================================================
+
+INFORMACION DEL DATASET:
+  Dimensiones: 6 filas x 6 columnas
+  Columnas: ['Unnamed: 0', 'Unnamed: 1', 'Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4', 'Unnamed: 5']
+
+ESTADISTICAS DESCRIPTIVAS:
+       Unnamed: 0  Unnamed: 1  ...            Unnamed: 4          Unnamed: 5
+count           6           6  ...                     6                   6
+unique          6           6  ...                     6                   6
+top           Mes  Ventas ($)  ...  Gasto Publicidad ($)  Productos Vendidos
+freq            1           1  ...                     1                   1
+
+[4 rows x 6 columns]
+
+VALORES NULOS:
+  Unnamed: 0: 0
+  Unnamed: 1: 0
+  Unnamed: 2: 0
+  Unnamed: 3: 0
+  Unnamed: 4: 0
+  Unnamed: 5: 0
+
+TIPOS DE DATOS:
+  Unnamed: 0: object
+  Unnamed: 1: object
+  Unnamed: 2: object
+  Unnamed: 3: object
+  Unnamed: 4: object
+  Unnamed: 5: object

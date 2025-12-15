@@ -1,0 +1,30 @@
+RESULTADOS DEL SISTEMA DE DESPACHO INTELIGENTE
+==============================================
+
+PROCESAMIENTO DE PEDIDOS:
+=========================
+
+ID     | Pago      | Stock | Destino  | Peso | Estado    | Método Envío
+-------|-----------|-------|----------|------|-----------|-------------
+0-702  | Pendiente | Sí    | Interior | 7    | Pendiente | -
+0-708  | Aprobado  | Sí    | Interior | 10   | -         | Correo
+0-705  | Aprobado  | No    | Capital  | 2    | Enviado   | -
+0-701  | Aprobado  | Sí    | Capital  | 3    | -         | Moto
+0-703  | Aprobado  | Sí    | Interior | 8    | -         | Correo
+0-707  | Aprobado  | Sí    | Capital  | 6    | -         | Expreso
+0-704  | Aprobado  | Sí    | Interior | 12   | -         | Expreso
+0-706  | Anulado   | Sí    | Capital  | 1    | Anulado   | -
+
+RECUENTO POR ESTADO:
+===================
+- Anulado: 1 pedido (0-706)
+- Pendiente: 1 pedido (0-702)
+- Enviado: 1 pedido (0-705)
+
+RECUENTO POR MÉTODO DE ENVÍO:
+=============================
+- Moto: 1 pedido (0-701)
+- Correo: 2 pedidos (0-708, 0-703)
+- Expreso: 2 pedidos (0-707, 0-704)
+
+TOTAL DE PEDIDOS PROCESADOS: 8

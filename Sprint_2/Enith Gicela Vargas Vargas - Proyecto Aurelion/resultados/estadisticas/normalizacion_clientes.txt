@@ -1,0 +1,14 @@
+NORMALIZACION AVANZADA - CLIENTES
+============================================================
+
+IMPUTACIONES DE VALORES FALTANTES:
+  No hay valores faltantes en esta tabla
+TRATAMIENTO DE OUTLIERS:
+  id_cliente: 0 outliers (0.0%)
+    Tratamiento: Ninguno
+
+NORMALIZACIONES NUMERICAS:
+CODIFICACIONES CATEGORICAS AVANZADAS:
+  ciudad: Binary (6 categorias)
+    Valores únicos: ['Carlos Paz', 'Rio Cuarto', 'Cordoba', 'Villa Maria', 'Alta Gracia', 'Mendiolaza']
+

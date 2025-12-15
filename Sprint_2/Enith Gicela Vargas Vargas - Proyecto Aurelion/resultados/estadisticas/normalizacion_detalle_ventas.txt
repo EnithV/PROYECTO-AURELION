@@ -1,0 +1,39 @@
+NORMALIZACION AVANZADA - DETALLE_VENTAS
+============================================================
+
+IMPUTACIONES DE VALORES FALTANTES:
+  No hay valores faltantes en esta tabla
+TRATAMIENTO DE OUTLIERS:
+  id_venta: 0 outliers (0.0%)
+    Tratamiento: Ninguno
+
+  id_producto: 0 outliers (0.0%)
+    Tratamiento: Ninguno
+
+  cantidad: 0 outliers (0.0%)
+    Tratamiento: Ninguno
+
+  precio_unitario: 0 outliers (0.0%)
+    Tratamiento: Ninguno
+
+  importe: 7 outliers (2.0%)
+    Tratamiento: Winsorization
+
+NORMALIZACIONES NUMERICAS:
+  cantidad: MinMaxScaler
+    Skewness original: 0.062
+    Rango original: [np.int64(1), np.int64(5)]
+    Rango normalizado: [np.float64(0.0), np.float64(1.0)]
+
+  precio_unitario: MinMaxScaler
+    Skewness original: 0.166
+    Rango original: [np.int64(272), np.int64(4982)]
+    Rango normalizado: [np.float64(0.0), np.float64(1.0)]
+
+  importe: StandardScaler
+    Skewness original: 0.788
+    Rango original: [np.float64(272.0), np.float64(20345.25)]
+    Rango normalizado: [np.float64(-1.4381167648096391), np.float64(2.451056835335445)]
+
+CODIFICACIONES CATEGORICAS AVANZADAS:
+  No hay variables categoricas para codificar (todas excluidas o no existen)

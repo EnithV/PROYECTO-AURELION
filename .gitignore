@@ -1,0 +1,56 @@
+# Ambiente Virtual de Python
+venv/
+env/
+ENV/
+.venv/
+
+# Archivos Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Archivos de distribución
+dist/
+build/
+*.egg-info/
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Variables de entorno
+.env
+.env.local
+
+# Archivos de log
+*.log
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Datos grandes o sensibles (comentar si son necesarios)
+# *.csv
+# *.xlsx
+# *.db
+
+# Resultados generados (descomentar si no se quieren versionar)
+# Sprint_2/Enith Gicela Vargas Vargas - Proyecto Aurelion/resultados/

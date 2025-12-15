@@ -1,0 +1,11 @@
+ESTADÍSTICA INFERENCIAL AVANZADA - PROYECTO AURELION
+================================================================================
+
+Este análisis incluye:
+- Tests de normalidad (Shapiro-Wilk, Kolmogorov-Smirnov, D'Agostino)
+- T-tests para comparación de medias
+- ANOVA para comparación de múltiples grupos
+- Test chi-cuadrado para independencia
+- Intervalos de confianza
+
+Los resultados detallados se muestran en la consola durante la ejecución.

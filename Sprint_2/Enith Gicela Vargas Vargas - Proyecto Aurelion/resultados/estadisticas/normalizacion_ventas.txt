@@ -1,0 +1,17 @@
+NORMALIZACION AVANZADA - VENTAS
+============================================================
+
+IMPUTACIONES DE VALORES FALTANTES:
+  No hay valores faltantes en esta tabla
+TRATAMIENTO DE OUTLIERS:
+  id_venta: 0 outliers (0.0%)
+    Tratamiento: Ninguno
+
+  id_cliente: 0 outliers (0.0%)
+    Tratamiento: Ninguno
+
+NORMALIZACIONES NUMERICAS:
+CODIFICACIONES CATEGORICAS AVANZADAS:
+  medio_pago: OneHot (4 categorias)
+    Valores únicos: ['tarjeta', 'qr', 'transferencia', 'efectivo']
+

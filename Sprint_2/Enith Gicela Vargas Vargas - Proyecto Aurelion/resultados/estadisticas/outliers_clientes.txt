@@ -1,0 +1,8 @@
+ANÁLISIS DE OUTLIERS - CLIENTES
+==================================================
+
+Columna: id_cliente
+  Outliers IQR: 0 (0.0%)
+  Outliers Z-score: 0 (0.0%)
+  Rango: [1.00, 100.00]
+

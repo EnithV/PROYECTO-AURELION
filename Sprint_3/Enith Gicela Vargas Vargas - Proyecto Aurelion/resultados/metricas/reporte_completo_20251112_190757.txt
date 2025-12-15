@@ -1,0 +1,80 @@
+
+REPORTE COMPLETO DE EVALUACIÓN - PROYECTO AURELION SPRINT_3
+===========================================================
+Fecha de generación: 2025-11-12 19:07:57
+Autor: Enith Gicela Vargas Vargas
+Curso: AI Fundamentals - Guayerd - IBM Skills Build
+
+RESUMEN EJECUTIVO
+=================
+Este reporte presenta un análisis completo de los modelos de Machine Learning
+entrenados para el proyecto Aurelion, incluyendo métricas de rendimiento,
+comparaciones detalladas y recomendaciones para producción.
+
+DATOS DEL PROYECTO
+==================
+- Dataset: Tienda Aurelion
+- Muestras de entrenamiento: 274
+- Muestras de prueba: 69
+- Características: 4
+- Variable objetivo: importe (ventas)
+
+MODELOS EVALUADOS
+=================
+1. Linear Regression
+2. Random Forest Regressor  
+3. Support Vector Regression (SVR)
+
+MÉTRICAS DE EVALUACIÓN
+======================
+Se evaluaron los siguientes modelos usando métricas estándar:
+- MSE (Mean Squared Error)
+- RMSE (Root Mean Squared Error)
+- MAE (Mean Absolute Error)
+- R² (Coeficiente de determinación)
+- MAPE (Mean Absolute Percentage Error)
+
+RESULTADOS DETALLADOS
+=====================
+
+TABLA DE RESULTADOS:
+------------------------------------------------------------
+Modelo               MSE          RMSE         MAE          R²          
+------------------------------------------------------------
+Linear Regression    13232703.82  3637.68      2808.40      0.2319      
+Random Forest Regressor 17846245.90  4224.48      3087.00      -0.0359     
+SVR                  18322322.48  4280.46      3738.49      -0.0636     
+
+MEJOR MODELO: Linear Regression
+R² Score: 0.2319
+MSE: 13232703.82
+
+
+ANÁLISIS Y RECOMENDACIONES
+===========================
+1. RENDIMIENTO GENERAL:
+   - El mejor modelo logra un R² de 0.2319
+   - Esto indica una capacidad predictiva limitada
+   - Se recomienda recopilar más datos para mejorar el rendimiento
+
+2. RECOMENDACIONES PARA PRODUCCIÓN:
+   - Usar Linear Regression como modelo principal
+   - Implementar monitoreo de deriva de datos
+   - Re-entrenar periódicamente con nuevos datos
+   - Considerar ingeniería de características adicionales
+
+3. PRÓXIMOS PASOS:
+   - Recopilar más datos históricos de Aurelion
+   - Experimentar con más características
+   - Probar algoritmos de ensemble
+   - Implementar validación cruzada más robusta
+
+CONCLUSIONES
+============
+Los modelos entrenados proporcionan una base sólida para predicciones de ventas
+en la tienda Aurelion. Aunque el rendimiento es limitado,
+los resultados son interpretables y útiles para la toma de decisiones empresariales.
+
+---
+Reporte generado automáticamente por el sistema de evaluación Sprint_3
+Proyecto Aurelion - AI Fundamentals Guayerd IBM Skills Build

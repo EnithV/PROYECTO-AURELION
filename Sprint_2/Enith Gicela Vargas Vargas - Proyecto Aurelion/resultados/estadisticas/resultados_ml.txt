@@ -1,0 +1,28 @@
+RESULTADOS DE MACHINE LEARNING - PROYECTO AURELION
+Proyecto desarrollado como parte del curso AI Fundamentals - Guayerd - IBM Skills Build
+================================================================================
+
+MODELOS DE REGRESION - PREDICCION DE IMPORTE:
+--------------------------------------------------
+LinearRegression:
+  R² Entrenamiento: 0.8957
+  R² Prueba: 0.8476
+  CV R²: 0.8815 (+/- 0.0546)
+  MSE Prueba: 0.0985
+
+RandomForest:
+  R² Entrenamiento: 0.9993
+  R² Prueba: 0.9928
+  CV R²: 0.9960 (+/- 0.0022)
+  MSE Prueba: 0.0046
+
+SVR:
+  R² Entrenamiento: 0.9932
+  R² Prueba: 0.9785
+  CV R²: 0.9798 (+/- 0.0061)
+  MSE Prueba: 0.0139
+
+MODELOS DE CLUSTERING:
+------------------------------
+K-Means: 3 clusters
+DBSCAN: 5 clusters

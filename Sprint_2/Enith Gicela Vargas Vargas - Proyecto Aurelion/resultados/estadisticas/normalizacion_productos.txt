@@ -1,0 +1,22 @@
+NORMALIZACION AVANZADA - PRODUCTOS
+============================================================
+
+IMPUTACIONES DE VALORES FALTANTES:
+  No hay valores faltantes en esta tabla
+TRATAMIENTO DE OUTLIERS:
+  id_producto: 0 outliers (0.0%)
+    Tratamiento: Ninguno
+
+  precio_unitario: 0 outliers (0.0%)
+    Tratamiento: Ninguno
+
+NORMALIZACIONES NUMERICAS:
+  precio_unitario: MinMaxScaler
+    Skewness original: 0.152
+    Rango original: [np.int64(272), np.int64(4982)]
+    Rango normalizado: [np.float64(0.0), np.float64(1.0)]
+
+CODIFICACIONES CATEGORICAS AVANZADAS:
+  categoria: OneHot (2 categorias)
+    Valores únicos: ['Alimentos', 'Limpieza']
+

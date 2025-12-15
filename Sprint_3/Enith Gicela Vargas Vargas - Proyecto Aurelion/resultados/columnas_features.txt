@@ -1,0 +1,6 @@
+cantidad
+ciudad_0
+ciudad_1
+ciudad_2
+categoria_Limpieza
+categoria_Alimentos

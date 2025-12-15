@@ -1,0 +1,13 @@
+ANÁLISIS DE OUTLIERS - PRODUCTOS
+==================================================
+
+Columna: id_producto
+  Outliers IQR: 0 (0.0%)
+  Outliers Z-score: 0 (0.0%)
+  Rango: [1.00, 100.00]
+
+Columna: precio_unitario
+  Outliers IQR: 0 (0.0%)
+  Outliers Z-score: 0 (0.0%)
+  Rango: [272.00, 4982.00]
+

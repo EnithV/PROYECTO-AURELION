@@ -1,0 +1,31 @@
+ESQUEMA DE BASE DE DATOS AURELION
+==================================================
+
+TABLA: CLIENTES
+PK: id_cliente
+FK: []
+Columnas: id_cliente, nombre_cliente, email, ciudad, fecha_alta
+Descripción: Información de clientes
+------------------------------
+
+TABLA: PRODUCTOS
+PK: id_producto
+FK: []
+Columnas: id_producto, nombre_producto, categoria, precio_unitario
+Descripción: Catálogo de productos
+------------------------------
+
+TABLA: VENTAS
+PK: id_venta
+FK: ['id_cliente']
+Columnas: id_venta, fecha, id_cliente, nombre_cliente, email, medio_pago
+Descripción: Transacciones de ventas
+------------------------------
+
+TABLA: DETALLE_VENTAS
+PK: compuesta
+FK: ['id_venta', 'id_producto']
+Columnas: id_venta, id_producto, nombre_producto, cantidad, precio_unitario, importe
+Descripción: Detalle de productos por venta
+------------------------------
+

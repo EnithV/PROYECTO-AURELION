@@ -1,0 +1,56 @@
+REPORTE ESPECIFICO - EJERCICIO CLASE 7 - PROYECTO AURELION SPRINT_2
+===================================================================
+
+**Autor:** Enith Gicela Vargas Vargas  
+**Fecha:** 2025-10-27  
+**Curso:** AI Fundamentals - Guayerd - IBM Skills Build  
+**Sprint:** 2 - Machine Learning y Normalización  
+**Módulo:** Ejercicio Clase 7 - Reporte Específico  
+
+1. EFICIENCIA PUBLICITARIA
+------------------------------
+Mes con MAYOR eficiencia: Abr
+Eficiencia: 5.45
+Ventas: $61,000
+Gasto Publicidad: $11,200
+
+2. TASA DE CONVERSION
+-------------------------
+Mes con MEJOR conversion: Mar
+Tasa de conversion: 3.8%
+Ventas: $38,000
+Visitantes: 12,500
+Gasto Publicidad: $7,200
+
+3. TICKET PROMEDIO
+--------------------
+Ticket promedio general: $100.00
+Ticket mas alto: $100.00
+Ticket mas bajo: $100.00
+Mes con mayor ticket: Ene
+Valor mayor ticket: $100.00
+
+4. RELACION VISITANTES-VENTAS
+-----------------------------------
+Correlacion: 0.9896
+Ratio promedio: $2.95
+Mejor ratio - Mes: Mar
+Mejor ratio - Valor: $3.04
+
+CONCLUSIONES:
+---------------
+1. El mes con mayor eficiencia publicitaria es el que genera mas ventas por dolar invertido
+2. La tasa de conversion indica la efectividad en convertir visitantes en clientes
+3. El ticket promedio muestra el valor promedio por transaccion
+4. La correlacion entre visitantes y ventas indica la fuerza de la relacion
+
+RECOMENDACIONES:
+------------------
+1. Replicar estrategias del mes con mayor eficiencia
+2. Analizar factores del mes con mejor conversion
+3. Optimizar para aumentar ticket promedio
+4. Invertir mas en canales que generen visitantes de calidad
+
+---
+Proyecto desarrollado como parte del curso AI Fundamentals - Guayerd - IBM Skills Build
+Autor: Enith Gicela Vargas Vargas

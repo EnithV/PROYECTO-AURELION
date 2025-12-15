@@ -1,0 +1,17 @@
+REPORTE DE EVALUACION DE MODELOS ML
+==================================================
+Fecha: 2025-11-27 21:33:35.004092
+Tipo de problema: REGRESSION
+Mejor modelo: Linear Regression
+
+RESULTADOS DETALLADOS:
+------------------------------
+                 Modelo          MSE        RMSE         MAE        R2       MAPE
+      Linear Regression 1.323270e+07 3637.678356 2808.396005  0.231875  67.075330
+Random Forest Regressor 1.784625e+07 4224.481731 3086.996672 -0.035930  66.530442
+                    Svr 1.832232e+07 4280.458209 3738.490034 -0.063565 118.657232
+
+INTERPRETACION:
+---------------
+- R² Score del mejor modelo: 0.2319
+- Capacidad predictiva limitada

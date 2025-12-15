@@ -1,0 +1,129 @@
+
+============================================================
+REPORTE COMPLETO - AURELION
+============================================================
+Fecha de generación: 13/11/2025 17:11:15
+Autor: Enith Gicela Vargas Vargas
+Proyecto: AI Fundamentals - Guayerd - IBM Skills Build
+============================================================
+
+
+ANÁLISIS DE VENTAS
+==================================================
+MÉTRICAS BÁSICAS:
+   • Total de ventas: $2,651,417.00
+   • Promedio por venta: $22,095.14
+   • Mejor venta: $61,503.00
+   • Peor venta: $272.00
+   • Número de ventas: 120
+
+ANÁLISIS TEMPORAL:
+   Ventas por mes:
+   • 2024-01: 24 ventas
+   • 2024-02: 20 ventas
+   • 2024-03: 21 ventas
+   • 2024-04: 12 ventas
+   • 2024-05: 22 ventas
+   • 2024-06: 21 ventas
+
+TOP PRODUCTOS VENDIDOS:
+   1. Salsa de Tomate 500g: 27 unidades
+   2. Queso Rallado 150g: 26 unidades
+   3. Hamburguesas Congeladas x4: 24 unidades
+   4. Aceitunas Verdes 200g: 22 unidades
+   5. Vino Blanco 750ml: 22 unidades
+
+TOP CLIENTES POR COMPRAS:
+   1. Bruno Diaz: 5 compras
+   2. Agustina Flores: 4 compras
+   3. Camila Rodriguez: 4 compras
+   4. Olivia Gomez: 4 compras
+   5. Santiago Diaz: 4 compras
+
+ANÁLISIS DE PRODUCTOS
+==================================================
+TOP 10 PRODUCTOS MÁS VENDIDOS:
+   Producto | Unidades | Precio Prom | Ingresos
+   ------------------------------------------------------------
+   Salsa de Tomate 500g           |       27 | $     887 | $   23949
+   Queso Rallado 150g             |       26 | $    3444 | $   89544
+   Hamburguesas Congeladas x4     |       24 | $    2420 | $   58080
+   Vino Blanco 750ml              |       22 | $    2684 | $   59048
+   Aceitunas Verdes 200g          |       22 | $    2520 | $   55440
+   Lavandina 1L                   |       21 | $    1664 | $   34944
+   Ron 700ml                      |       21 | $    3876 | $   81396
+   Mermelada de Frutilla 400g     |       21 | $    1584 | $   33264
+   Yerba Mate Suave 1kg           |       20 | $    3878 | $   77560
+   Desodorante Aerosol            |       20 | $    4690 | $   93800
+
+TOP 5 PRODUCTOS MÁS RENTABLES:
+   1. Desodorante Aerosol: $93,800.00 ingresos
+   2. Queso Rallado 150g: $89,544.00 ingresos
+   3. Pizza Congelada Muzzarella: $85,720.00 ingresos
+   4. Ron 700ml: $81,396.00 ingresos
+   5. Yerba Mate Suave 1kg: $77,560.00 ingresos
+
+ANÁLISIS DE PAGOS
+==================================================
+DISTRIBUCIÓN POR MÉTODO DE PAGO:
+   • efectivo: 37 ventas
+   • qr: 30 ventas
+   • transferencia: 27 ventas
+   • tarjeta: 26 ventas
+
+PORCENTAJES:
+   • efectivo: 30.8% de las ventas
+   • qr: 25.0% de las ventas
+   • transferencia: 22.5% de las ventas
+   • tarjeta: 21.7% de las ventas
+
+ANÁLISIS DE CLIENTES
+==================================================
+TOP 10 CLIENTES MÁS FRECUENTES:
+   1. Bruno Diaz: 5 compras
+   2. Agustina Flores: 4 compras
+   3. Camila Rodriguez: 4 compras
+   4. Olivia Gomez: 4 compras
+   5. Santiago Diaz: 4 compras
+   6. Tomas Flores: 4 compras
+   7. Agustina Lopez: 3 compras
+   8. Diego Diaz: 3 compras
+   9. Elena Rodriguez: 3 compras
+   10. Karina Acosta: 3 compras
+
+ESTADÍSTICAS DE CLIENTES:
+   • Total de clientes únicos: 67
+   • Promedio de compras por cliente: 1.8
+   • Cliente más activo: 5 compras
+
+SEGMENTACIÓN RFM DE CLIENTES
+==================================================
+DISTRIBUCIÓN DE SEGMENTOS:
+   • Clientes Regulares: 39 clientes
+   • Clientes Potenciales: 17 clientes
+   • Clientes en Riesgo: 6 clientes
+   • Campeones: 2 clientes
+   • Clientes Prometedores: 2 clientes
+   • Clientes Leales: 1 clientes
+
+TOP CLIENTES POR SEGMENTO:
+
+Campeones:
+   1. Agustina Flores: $132,158.00
+   2. Bruno Diaz: $90,701.00
+
+Clientes Leales:
+   1. Santiago Diaz: $64,786.00
+
+Clientes Potenciales:
+   1. Gael Gomez: $49,518.00
+   2. Mariana Rodriguez: $48,867.00
+   3. Uma Silva: $44,563.00
+
+RESUMEN EJECUTIVO
+==============================
+• Total de ingresos: $2,651,417.00
+• Número de clientes: 100
+• Número de productos: 100
+• Número de ventas: 120
+• Ticket promedio: $22,095.14

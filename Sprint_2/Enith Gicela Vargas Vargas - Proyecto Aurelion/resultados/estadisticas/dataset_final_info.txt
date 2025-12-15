@@ -1,0 +1,36 @@
+DATASET FINAL - PROYECTO AURELION
+==================================================
+
+Dimensiones: 343 filas x 24 columnas
+Memoria: 217.8 KB
+
+COLUMNAS:
+ 1. id_venta
+ 2. id_producto
+ 3. nombre_producto_detalle
+ 4. cantidad
+ 5. precio_unitario_detalle
+ 6. importe
+ 7. nombre_producto_producto
+ 8. categoria_Alimentos
+ 9. categoria_Limpieza
+10. precio_unitario_producto
+11. fecha
+12. id_cliente
+13. nombre_cliente_venta
+14. email_venta
+15. medio_pago_tarjeta
+16. medio_pago_qr
+17. medio_pago_transferencia
+18. medio_pago_efectivo
+19. nombre_cliente_cliente
+20. email_cliente
+21. ciudad_0
+22. ciudad_1
+23. ciudad_2
+24. fecha_alta
+
+TIPOS DE DATOS:
+  int64: 12 columnas
+  object: 8 columnas
+  float64: 4 columnas

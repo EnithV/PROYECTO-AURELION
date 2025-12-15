@@ -1,0 +1,59 @@
+PSEUDOCÓDIGO - SISTEMA DE DESPACHO INTELIGENTE
+================================================
+
+ALGORITMO: DespachoInteligente
+ENTRADA: Lista de pedidos (ID, Pago, Stock, Destino, Peso)
+SALIDA: Recuento de pedidos por estado y método de envío
+
+INICIO
+    // Inicializar contadores
+    contador_anulado = 0
+    contador_pendiente = 0
+    contador_enviado = 0
+    contador_moto = 0
+    contador_correo = 0
+    contador_expreso = 0
+    
+    // Procesar cada pedido
+    PARA cada pedido EN lista_pedidos HACER
+        SI pedido.pago == "Anulado" ENTONCES
+            pedido.estado = "Anulado"
+            contador_anulado = contador_anulado + 1
+            
+        SINO SI pedido.pago != "Aprobado" ENTONCES
+            pedido.estado = "Pendiente"
+            contador_pendiente = contador_pendiente + 1
+            
+        SINO SI pedido.pago == "Aprobado" Y pedido.stock == "No" ENTONCES
+            pedido.estado = "Enviado"
+            contador_enviado = contador_enviado + 1
+            
+        SINO SI pedido.pago == "Aprobado" Y pedido.stock == "Sí" ENTONCES
+            // Determinar método de envío
+            SI pedido.destino == "Capital" Y pedido.peso <= 5 ENTONCES
+                pedido.metodo_envio = "Moto"
+                contador_moto = contador_moto + 1
+                
+            SINO SI pedido.destino == "Interior" Y pedido.peso <= 10 ENTONCES
+                pedido.metodo_envio = "Correo"
+                contador_correo = contador_correo + 1
+                
+            SINO
+                pedido.metodo_envio = "Expreso"
+                contador_expreso = contador_expreso + 1
+            FIN SI
+        FIN SI
+    FIN PARA
+    
+    // Mostrar resultados
+    IMPRIMIR "RECUENTO DE PEDIDOS POR ESTADO:"
+    IMPRIMIR "Anulado: " + contador_anulado
+    IMPRIMIR "Pendiente: " + contador_pendiente
+    IMPRIMIR "Enviado: " + contador_enviado
+    
+    IMPRIMIR "RECUENTO DE PEDIDOS POR MÉTODO DE ENVÍO:"
+    IMPRIMIR "Moto: " + contador_moto
+    IMPRIMIR "Correo: " + contador_correo
+    IMPRIMIR "Expreso: " + contador_expreso
+    
+FIN

@@ -1,0 +1,28 @@
+ANÁLISIS DE OUTLIERS - DETALLE_VENTAS
+==================================================
+
+Columna: id_venta
+  Outliers IQR: 0 (0.0%)
+  Outliers Z-score: 0 (0.0%)
+  Rango: [1.00, 120.00]
+
+Columna: id_producto
+  Outliers IQR: 0 (0.0%)
+  Outliers Z-score: 0 (0.0%)
+  Rango: [1.00, 100.00]
+
+Columna: cantidad
+  Outliers IQR: 0 (0.0%)
+  Outliers Z-score: 0 (0.0%)
+  Rango: [1.00, 5.00]
+
+Columna: precio_unitario
+  Outliers IQR: 0 (0.0%)
+  Outliers Z-score: 0 (0.0%)
+  Rango: [272.00, 4982.00]
+
+Columna: importe
+  Outliers IQR: 7 (2.0%)
+  Outliers Z-score: 2 (0.6%)
+  Rango: [272.00, 24865.00]
+

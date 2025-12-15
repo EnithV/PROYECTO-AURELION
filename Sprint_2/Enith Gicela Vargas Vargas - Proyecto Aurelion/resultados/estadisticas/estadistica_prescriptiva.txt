@@ -1,0 +1,24 @@
+ESTADÍSTICA PRESCRIPTIVA - PROYECTO AURELION
+================================================================================
+
+Este análisis proporciona recomendaciones de acciones basadas en datos:
+
+1. Inventario
+   Descripción: Optimización de niveles de inventario
+   Acción Recomendada: Ajustar inventario según rotación de productos
+   Impacto Esperado: Reducción de costos de almacenamiento y mejora de disponibilidad
+
+2. Precios
+   Descripción: Optimización de estrategia de precios
+   Acción Recomendada: Ajustar precios según elasticidad y demanda
+   Impacto Esperado: Maximización de ingresos y volumen de ventas
+
+3. Marketing
+   Descripción: Estrategias de marketing segmentadas
+   Acción Recomendada: Implementar programas diferenciados por segmento de cliente
+   Impacto Esperado: Aumento de retención y valor de cliente
+
+
+================================================================================
+NOTA: Estas recomendaciones deben ser validadas con el equipo de negocio
+antes de implementarse.
