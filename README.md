@@ -1,6 +1,8 @@
 # 📊 PROYECTO AURELION
 ## Sistema Completo de Análisis de Datos e IA para Tienda Aurelion
 
+📄 **English version available:** [README_EN.md](README_EN.md)
+
 **Autor:** Enith Gicela Vargas Vargas  
 **Grupo:** 11 - Camada 1  
 **Curso:** AI Fundamentals - Guayerd - IBM Skills Build  
