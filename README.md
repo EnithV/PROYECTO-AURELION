@@ -1,7 +1,18 @@
 # 📊 PROYECTO AURELION
 ## Sistema Completo de Análisis de Datos e IA para Tienda Aurelion
 
+<<<<<<< HEAD
 📄 **English version available:** [README_EN.md](README_EN.md)
+=======
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?logo=numpy)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-Machine%20Learning-F7931E?logo=scikit-learn)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557C)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-4C72B0)
+![Status](https://img.shields.io/badge/Project-Completed-success)
+![License](https://img.shields.io/badge/License-MIT-green)
+>>>>>>> ee3bfc49574ba7d2e1ec3406fee2592fefd9ed35
 
 **Autor:** Enith Gicela Vargas Vargas  
 **Grupo:** 11 - Camada 1  
